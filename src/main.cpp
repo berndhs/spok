@@ -20,9 +20,11 @@
  *  Boston, MA  02110-1301, USA.
  ****************************************************************/
 #include "spok.h"
+#include <QApplication>
 
 int main (int argc, char* argv[])
 {
+    QApplication app(argc, argv);
   spok spok;
 
   char zero = -1;
