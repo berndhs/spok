@@ -10,13 +10,14 @@ class spok : public QObject
     Q_OBJECT
 public:
     explicit spok(QObject *parent = nullptr);
+    void spkshow();
 
 signals:
 
 public slots:
 
 private:
-    QTextBrowser   m_bug;
+    QTextBrowser   m_buf;
 };
 
 #endif // SPOK_H
