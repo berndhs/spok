@@ -3,14 +3,15 @@
 
 #include <QObject>
 
+#include <QMainWindow>
 #include <QPlainTextEdit>
 #include <unistd.h>
 
-class spok : public QObject
+class spok : public QMainWindow
 {
     Q_OBJECT
 public:
-    explicit spok(QObject *parent = nullptr);
+    explicit spok(QMainWindow *parent = nullptr);
   //  void show();
 
 signals:

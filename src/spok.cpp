@@ -4,16 +4,17 @@
 
 using namespace std;
 
-spok::spok(QObject *parent) : QObject(parent)
+spok::spok(QMainWindow *parent) : QMainWindow(parent)
 {
 
 
     cout <<"foo\nbsr" << Q_FUNC_INFO << endl;
     //m_buf.append("");
 }
-
+/*
 void spok::show()
 {
     m_buf.show();
     sleep(2);
 }
+*/

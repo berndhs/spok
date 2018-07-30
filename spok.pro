@@ -1,5 +1,5 @@
 # spok
-#  ront nd or stuf lik espeak
+#  front end for stuf like espeak
 # front end for espeak
 
 
@@ -7,7 +7,6 @@
 # READ GPL2.H
 
 
-CONNFIG += debug
 CONNFIG += debug
 MYNAME=spok
 
@@ -22,7 +21,7 @@ RCC_DIR = tmp/rcc
 QT += widgets
 
 FORMS: \
-    ui/wok.ui
+    ui/spok.ui
 
 SOURCES: \
     src/main.cpp
