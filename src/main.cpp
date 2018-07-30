@@ -26,7 +26,7 @@ int main (int argc, char* argv[])
 {
     QApplication app(argc, argv);;
     spok spk;
-    spk.show();
+    //spk.show();
 
   char zero = -1;
   return zero;

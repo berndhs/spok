@@ -3,21 +3,22 @@
 
 #include <QObject>
 
-#include <QTextBrowser>
+#include <QPlainTextEdit>
+#include <unistd.h>
 
 class spok : public QObject
 {
     Q_OBJECT
 public:
     explicit spok(QObject *parent = nullptr);
-    void spkshow();
+  //  void show();
 
 signals:
 
 public slots:
 
 private:
-    QTextBrowser   m_buf;
+    QPlainTextEdit   m_buf;
 };
 
 #endif // SPOK_H

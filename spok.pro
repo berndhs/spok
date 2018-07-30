@@ -8,6 +8,7 @@
 
 
 CONNFIG += debug
+CONNFIG += debug
 MYNAME=spok
 
 UI_DIR = tmp/ui
@@ -19,6 +20,9 @@ RCC_DIR = tmp/rcc
 
 
 QT += widgets
+
+FORMS: \
+    ui/wok.ui
 
 SOURCES: \
     src/main.cpp
