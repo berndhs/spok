@@ -7,29 +7,16 @@
 # READ GPL2.H
 
 
-CONNFIG += debug
-MYNAME=spok
+CONFIG += debug
 
 UI_DIR = tmp/ui
 MOC_DIR = tmp/moc
 RCC_DIR = tmp/rcc
 
-
-
-
-
 QT += widgets
 
-FORMS: \
+FORMS = \
     ui/spok.ui
-
-SOURCES: \
-    src/main.cpp
-
-HEADERS: \
-
-INCLUDEPATH:
-    src
 
 SOURCES += \
     src/main.cpp \

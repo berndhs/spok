@@ -2,3 +2,5 @@ Makefile
 *.o
 tmp/*
 spok
+spok.pro.user
+.qmake.stash

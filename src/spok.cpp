@@ -1,22 +1,12 @@
 #include "spok.h"
-#include <iostream>
+#include "ui_spok.h"
+
 #include <QDebug>
 
 using namespace std;
 
-spok::spok(QMainWindow *parent) : QMainWindow(parent)
+Spok::Spok(QWidget *parent) : QMainWindow(parent),
+    ui(new Ui::MainWindow)
 {
-
-
-    cout <<"foo\nbsr" << Q_FUNC_INFO << endl;
-    //m_buf.append("");
+    ui->setupUi(this);
 }
-/*
-void spok::show()
-{
-    m_buf.show();
-
-   sleep(2);
-   coud << "showing" :: endl;
-}
-*/

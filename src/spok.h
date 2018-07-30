@@ -1,25 +1,22 @@
-#ifndef SPOK_H
-#define SPOK_H
-
-#include <QObject>
+#pragma once
 
 #include <QMainWindow>
-#include <QPlainTextEdit>
-#include <unistd.h>
 
-class spok : public QMainWindow
+namespace Ui {
+class MainWindow;
+}
+
+class Spok : public QMainWindow
 {
     Q_OBJECT
 public:
-    explicit spok(QMainWindow *parent = nullptr);
-  //  void show();
+    explicit Spok(QWidget *parent = nullptr);
 
 signals:
 
 public slots:
 
 private:
-    QPlainTextEdit   m_buf;
-};
+    Ui::MainWindow * ui;
 
-#endif // SPOK_H
+};
