@@ -15,6 +15,8 @@ spok::spok(QMainWindow *parent) : QMainWindow(parent)
 void spok::show()
 {
     m_buf.show();
-    sleep(2);
+
+   sleep(2);
+   coud << "showing" :: endl;
 }
 */
