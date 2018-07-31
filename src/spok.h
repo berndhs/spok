@@ -6,6 +6,8 @@
 #include <QMainWindow>
 #include <QPlainTextEdit>
 #include <unistd.h>
+#include "ui_spok.h"
+
 
 class spok : public QMainWindow
 {
@@ -19,6 +21,8 @@ signals:
 public slots:
 
 private:
+
+    Ui_Main    mainUi;
     QPlainTextEdit   m_buf;
 };
 
