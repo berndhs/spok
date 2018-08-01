@@ -17,6 +17,6 @@ signals:
 public slots:
 
 private:
-    Ui::MainWindow * ui;
 
+    Ui::MainWindow * ui;
 };
